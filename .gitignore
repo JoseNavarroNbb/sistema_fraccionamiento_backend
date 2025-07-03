@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Ignorar el entorno virtual si usas venv
+venv/
+
+# Ignorar variables de entorno reales
+.env
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar datos de Docker si subes desde tu máquina
+mysql_data/
+>>>>>>> f6aa6e4 (inicio configuracion de entorno y parte del la base de datos, docker y FastApi)
